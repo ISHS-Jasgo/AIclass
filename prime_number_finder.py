@@ -1,5 +1,9 @@
-start = int(input("Enter start number: "))
-end = int(input("Enter end number: "))
+# start = int(input("Enter start number: "))
+# end = int(input("Enter end number: "))
+
+# get start and end value with one line using split and map
+start, end = map(int, input("Enter start and end number: ").split())
+
 
 # find all prime number between start and end
 for number in range(start, end + 1):
